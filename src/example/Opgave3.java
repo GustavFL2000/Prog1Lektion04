@@ -2,16 +2,15 @@ package example;
 
 public class Opgave3 {
 
-    public static int lilleTabel(int number){
+    public static void lilleTabel(int number){
         int i = 1;
         while(i <= 10){
             System.out.printf("%4d", number*i);
             i++;
         }
         System.out.println();
-        return number;
-
     }
+
 
     public static void fuldTabel(){
         int i = 1;
