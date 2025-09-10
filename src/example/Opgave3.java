@@ -21,7 +21,6 @@ public class Opgave3 {
         }
     }
 
-
     public static void main(String[] args) {
         lilleTabel(7);
         System.out.println();
